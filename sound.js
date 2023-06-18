@@ -5,7 +5,7 @@ function generateRandomSound() {
 
   // Create an oscillator node for the base note
   const baseOscillator = audioContext.createOscillator();
-  baseOscillator.frequency.value = 600; // Base frequency of 440Hz
+  baseOscillator.frequency.value = 440; // Base frequency of 440Hz
   baseOscillator.type = 'sine'; // Use a sawtooth waveform for the base note
 
   // Create a waveshaper node for adding warmth and saturation
